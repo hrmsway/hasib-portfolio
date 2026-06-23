@@ -1,0 +1,25 @@
+{
+  "heading": "From agent loop to automation.",
+  "items": [
+    {
+      "title": "LLM orchestration & multi-agent systems",
+      "description": "Agent workflows that survive contact with production — LLM orchestration and chaining, autonomous task decomposition, supervisor–worker routing, structured output parsing, and human-in-the-loop checkpoints.",
+      "tags": ["LangChain", "LangGraph", "CrewAI", "Multi-agent"]
+    },
+    {
+      "title": "RAG pipelines & vector search",
+      "description": "Retrieval that returns the right context — embeddings, semantic chunking, hybrid retrieval and re-ranking over FAISS, Pinecone, Milvus, and Qdrant, wired into RAG-powered tools.",
+      "tags": ["RAG", "Embeddings", "Vector DBs", "Re-ranking"]
+    },
+    {
+      "title": "Backend & API platforms",
+      "description": "Maintainable, production-ready services that scale — Python (Django, FastAPI) and Go (Fiber), microservices, Celery task queues, async I/O, on PostgreSQL and Redis.",
+      "tags": ["FastAPI", "Django", "Go Fiber", "Celery"]
+    },
+    {
+      "title": "Local AI & automation",
+      "description": "Self-hosted, open-source AI in production — local Hermes Agent (Nous Research) deployments wired into social and marketing automation through scheduling and API integration layers.",
+      "tags": ["Hermes Agent", "Self-hosting", "Automation", "Scheduling"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdfPath": "/resume/hasib-ahmad-bhuyan-resume.pdf",
+  "headline": "Backend Engineer & Tech Lead — Agentic AI & Automation",
+  "education": [
+    {
+      "degree": "B.Sc. in Software Engineering",
+      "institution": "Daffodil International University",
+      "location": "Dhaka, Bangladesh",
+      "start": "Sep 2020",
+      "end": "Jun 2024",
+      "note": ""
+    },
+    {
+      "degree": "Higher Secondary Certificate — Science",
+      "institution": "Uttara High School and College",
+      "location": "Dhaka, Bangladesh",
+      "start": "Jun 2017",
+      "end": "May 2019",
+      "note": ""
+    }
+  ],
+  "languages": [
+    { "language": "English", "level": "Professional proficiency" },
+    { "language": "Bangla", "level": "Native speaker" }
+  ],
+  "faq": [
+    {
+      "question": "Who is Hasib Ahmad Bhuyan?",
+      "answer": "Hasib Ahmad Bhuyan is a Backend Engineer and Tech Lead specialising in scalable API platforms, microservices, and production-grade agentic AI systems. He is based in Uttara, Dhaka, Bangladesh, builds in Python (Django, FastAPI) and Go (Fiber), and currently leads engineering as Tech Lead at Hours Media Ltd."
+    },
+    {
+      "question": "What does Hasib specialize in?",
+      "answer": "Agentic AI and automation — multi-agent systems, LLM orchestration and chaining (LangChain, LangGraph, CrewAI), RAG pipelines and vector search, and self-hosted local AI (including Hermes Agent from Nous Research) — on scalable Python and Go backends with Celery, Redis, and PostgreSQL."
+    },
+    {
+      "question": "What has Hasib built?",
+      "answer": "Backends for AI SaaS products — Oppora.ai (sales automation), Heimdall (marketing automation), and SailorSearch (an agent-ready search API) — plus a real-time production tracking system and an AI interview agent with structured scoring. He leads architecture, pull request reviews, and cross-team delivery."
+    },
+    {
+      "question": "How can I contact Hasib?",
+      "answer": "Email hasibahmed1729@gmail.com, visit hasib.tech, or find him on GitHub as Hasib105 and on LinkedIn."
+    }
+  ]
+}

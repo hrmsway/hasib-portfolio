@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "organization": "Hours Media Ltd",
+      "url": "",
+      "location": "Remote",
+      "role": "Tech Lead",
+      "start": "Dec 2025",
+      "end": "Present",
+      "current": true,
+      "highlights": [
+        "Architected SaaS platforms including AI automation systems, a production tracking MIS, and order management dashboards.",
+        "Designed and shipped multi-agent AI workflows: LLM orchestration, RAG pipelines, tool-calling agents, and human-in-the-loop systems.",
+        "Self-hosted and integrated the Hermes Agent (Nous Research) locally; automated social media workflows and internal marketing operations via API and scheduling layers.",
+        "Led architecture decisions, pull request reviews, and cross-team delivery across product and AI squads."
+      ]
+    },
+    {
+      "organization": "Softstandard Solution",
+      "url": "",
+      "location": "Onsite — Dhaka, Bangladesh",
+      "role": "Python Developer",
+      "start": "Jan 2025",
+      "end": "May 2026",
+      "current": false,
+      "highlights": [
+        "Owned backend development for AI-driven platforms using Django, FastAPI, and Python.",
+        "Built automation workflows integrating LLMs, classification models, and Celery task queues.",
+        "Designed maintainable, production-ready backend architectures across multiple products."
+      ]
+    },
+    {
+      "organization": "Bytenyx Limited",
+      "url": "",
+      "location": "Onsite — Dhaka, Bangladesh",
+      "role": "Full Stack Developer",
+      "start": "Feb 2024",
+      "end": "Aug 2024",
+      "current": false,
+      "highlights": [
+        "Built full-stack applications using Django and React; developed REST APIs and responsive frontends.",
+        "Optimised database performance and reduced API latency across core application services."
+      ]
+    }
+  ]
+}

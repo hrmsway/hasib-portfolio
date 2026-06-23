@@ -1,0 +1,22 @@
+{
+  "name": "Hasib Ahmad Bhuyan",
+  "role": "Backend Engineer & Tech Lead — Agentic AI & Automation",
+  "email": "hasibahmed1729@gmail.com",
+  "location": "Uttara, Dhaka, Bangladesh",
+  "locationShort": "Dhaka, BD — Remote",
+  "timezone": "Asia/Dhaka",
+  "availability": "Open to select projects & conversations",
+  "summary": "Backend Engineer and Tech Lead specialising in scalable API platforms, microservices, and production-grade agentic AI systems. I build multi-agent workflows, LLM orchestration pipelines, and RAG-powered tools that turn AI capabilities into real business automation — in Python (Django, FastAPI) and Go (Fiber). I integrate and self-host open-source AI infrastructure, including local Hermes LLM deployments, into production social and marketing automation. I lead cross-functional teams, own architecture decisions, and ship at speed.",
+  "socials": [
+    {
+      "label": "GitHub",
+      "username": "Hasib105",
+      "href": "https://github.com/Hasib105"
+    },
+    {
+      "label": "LinkedIn",
+      "username": "hasib-ahmed",
+      "href": "https://www.linkedin.com/in/hasib-ahmed-517994199/"
+    }
+  ]
+}

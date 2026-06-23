@@ -1,0 +1,19 @@
+{
+  "heroKicker": "Backend Engineer & Tech Lead — Agentic AI",
+  "heroLines": ["Agentic AI,", "engineered into", "real automation."],
+  "heroSub": "Multi-agent workflows, LLM orchestration, and RAG-powered tools — built on scalable Python and Go backends that turn AI capabilities into business automation that actually ships.",
+  "primaryCta": { "label": "Selected work", "href": "#work" },
+  "secondaryCta": { "label": "Get in touch", "href": "#contact" },
+  "builtKicker": "How I build",
+  "builtHeadline": "Built for production.",
+  "builtBody": "Systems designed to be operated, not just demoed — owned architecture, maintainable backends, and AI workflows that hold up under real load and real business needs.",
+  "builtMeta": [
+    { "label": "Currently", "value": "Tech Lead — Hours Media Ltd" },
+    {
+      "label": "Foundation",
+      "value": "Python · Django · FastAPI · Go · Redis"
+    }
+  ],
+  "contactHeadline": "Let's put AI to work.",
+  "contactBody": "If you're building something where AI has to actually ship — an agent layer, an automation pipeline, a backend platform — I'd like to hear about it."
+}

@@ -1,0 +1,56 @@
+---
+title: Heimdall
+status: published
+order: 2
+featured: true
+category: AI Marketing Automation
+year: 2025—26
+role: Backend Engineer
+summary: >-
+  An end-to-end AI marketing-automation platform — research, planning, and
+  execution driven by agentic multi-step workflows, with humans staying in
+  control of what actually ships.
+stack:
+  - Django
+  - FastAPI
+  - PostgreSQL
+  - Redis
+  - Celery
+  - LangGraph
+metrics:
+  - label: Pipeline
+    value: Research → plan → execute
+  - label: Orchestration
+    value: Agentic multi-step workflows
+accent: rose
+thumbnail:
+  src: /images/work/heimdall.avif
+  alt: Dark chrome monolith emitting concentric ripples through metallic dust on black
+links:
+  - label: heimdall.social
+    href: https://heimdall.social
+seoTitle: Heimdall — AI Marketing Automation Platform
+seoDescription: >-
+  Backend engineering for Heimdall by Hasib Ahmad Bhuyan — agentic multi-step
+  workflows for marketing research, planning, and campaign execution.
+---
+
+Heimdall is a fully AI-based marketing-automation platform: campaigns
+researched, planned, and executed with agentic multi-step workflows, and
+humans kept in the loop on the decisions that matter. I built the backend
+that makes those workflows dependable enough to run unattended.
+
+## Generation with guardrails
+
+Marketing automation fails in a specific way — unsupervised generation at
+scale produces content nobody should publish. Heimdall's pipeline runs as
+inspectable stages: research, planning, content generation, and assisted
+execution, with the expensive, irreversible steps sitting behind a
+human-in-the-loop checkpoint.
+
+## The platform underneath
+
+Heimdall runs on Django and FastAPI with PostgreSQL, Redis, and Celery for
+background processing. The agentic layer is orchestrated with LangGraph so
+each step is an explicit, observable node rather than a black box — the
+difference between a demo and something a team trusts with its outbound.

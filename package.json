@@ -1,0 +1,59 @@
+{
+  "name": "hasib-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "node scripts/validate-content.mjs && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "validate:content": "node scripts/validate-content.mjs"
+  },
+  "dependencies": {
+    "@keystatic/core": "^0.5.50",
+    "@keystatic/next": "^5.0.4",
+    "@monogrid/gainmap-js": "^3.1.0",
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "clsx": "^2.1.1",
+    "gray-matter": "^4.0.3",
+    "maath": "^0.10.8",
+    "motion": "^12.0.0",
+    "next": "^16.2.4",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "reading-time": "^1.5.0",
+    "tailwind-merge": "^3.0.0",
+    "three": "^0.177.0",
+    "three-custom-shader-material": "^6.3.0",
+    "three-stdlib": "^2.36.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "@types/mdx": "^2.0.14",
+    "@types/node": "^25.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.177.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.5.0",
+    "prettier": "^3.8.0",
+    "prettier-plugin-tailwindcss": "^0.7.0",
+    "tailwindcss": "^4.2.0",
+    "typescript": "^5.9.0",
+    "zod": "^3.24.0"
+  }
+}

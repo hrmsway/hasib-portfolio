@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "category": "Agentic AI",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "CrewAI",
+        "OpenAI API",
+        "RAG",
+        "Embeddings",
+        "FAISS",
+        "Pinecone",
+        "Milvus",
+        "Qdrant",
+        "Tool Use",
+        "Hermes Agent"
+      ]
+    },
+    {
+      "category": "Languages & Backend",
+      "skills": [
+        "Python",
+        "Go",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Django",
+        "Django REST Framework",
+        "FastAPI",
+        "Go Fiber",
+        "Node.js",
+        "Celery",
+        "Pydantic",
+        "Microservices",
+        "Async I/O"
+      ]
+    },
+    {
+      "category": "ML / NLP",
+      "skills": [
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "Hugging Face Transformers",
+        "NLP",
+        "Structured Output Parsing"
+      ]
+    },
+    {
+      "category": "Data & DevOps",
+      "skills": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Nginx",
+        "Linux",
+        "Pytest",
+        "Playwright"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "skills": ["React", "Next.js", "Tailwind CSS"]
+    },
+    {
+      "category": "Payments",
+      "skills": ["Stripe", "PayPal", "SSLCOMMERZ"]
+    }
+  ]
+}

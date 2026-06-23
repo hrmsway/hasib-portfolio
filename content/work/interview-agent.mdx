@@ -1,0 +1,53 @@
+---
+title: AI Interview Agent
+status: published
+order: 5
+featured: false
+category: Conversational AI
+year: 2025—26
+role: AI Engineer — Backend
+summary: >-
+  A conversational AI system for interview simulation — it runs a live
+  interview and returns real-time structured scoring and feedback, turning an
+  open-ended conversation into measurable, comparable signal.
+stack:
+  - FastAPI
+  - LangGraph
+  - OpenAI
+  - Structured Output Parsing
+  - WebSockets
+metrics:
+  - label: Mode
+    value: Live conversational interview
+  - label: Output
+    value: Real-time structured scoring
+accent: lavender
+thumbnail:
+  src: /images/work/truespec.avif
+  alt: Chrome orb passing through a thin plane of scanning light on black
+links: []
+seoTitle: AI Interview Agent — Conversational Interview Simulation
+seoDescription: >-
+  How Hasib Ahmad Bhuyan built an AI interview agent — a conversational system
+  with real-time structured scoring and feedback for interview simulation.
+---
+
+An interview is an open-ended conversation, but the value of one is in the
+structure you can pull back out: how a candidate reasoned, where they hesitated,
+what they actually demonstrated. This agent runs the conversation and produces
+that structure in real time.
+
+## Scoring a conversation as it happens
+
+The system conducts a live interview and emits **real-time structured scoring
+and feedback** rather than a single verdict at the end. The hard part is
+reliability — turning free-form model output into a consistent, comparable
+schema — which I handle with structured output parsing so every response maps
+cleanly onto the scoring model.
+
+## Orchestrated, not prompted
+
+The interview flow is orchestrated with LangGraph as explicit stages — ask,
+follow up, evaluate — over a FastAPI backend with a streaming channel for the
+live exchange. Treating the dialogue as a graph keeps it controllable instead
+of letting one long prompt drift.
