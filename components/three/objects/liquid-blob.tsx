@@ -104,15 +104,17 @@ export function LiquidBlob({
           vertexShader={blobVertexShader}
           uniforms={uniforms}
           metalness={1}
-          // Low roughness = sharp mirror reflections (the "chrome"). The dark
-          // base color tints those metal reflections down to a mercury body,
-          // while the strong, glossy clearcoat adds bright white specular
-          // highlights on top that the base color does NOT darken.
-          roughness={0.12}
-          envMapIntensity={0.85}
-          clearcoat={1}
-          clearcoatRoughness={0.06}
-          color={"#16191d"}
+          // Mercury = polished chrome: the visible environment reflections ARE
+          // the look (bright near-white streaks against deep black, like the
+          // static poster). A near-black base color crushed them into a flat
+          // matte blob — instead keep a neutral silver tint with very low
+          // roughness for a sharp mirror finish, full env intensity, and a
+          // glossy clearcoat for crisp specular highlights.
+          roughness={0.08}
+          envMapIntensity={1}
+          clearcoat={0.5}
+          clearcoatRoughness={0.1}
+          color={"#93989d"}
         />
       )}
     </mesh>
@@ -131,7 +133,7 @@ function MatcapBlobMaterial({
       vertexShader={blobVertexShader}
       uniforms={uniforms}
       matcap={matcapTexture}
-      color={"#646a70"}
+      color={"#7d8186"}
     />
   );
 }
