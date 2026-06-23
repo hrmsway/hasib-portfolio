@@ -103,7 +103,10 @@ export function TrustCubeScene({ trackEl }: SceneProps) {
 
   return (
     <>
-      <PerspectiveCamera makeDefault position={[0, 0, 5.4]} fov={42} />
+      {/* z=6.6 keeps the cube's rotating corners (radius ≈2.34) inside the
+          square scene box — at z=5.4 the visible half-height (≈2.07) was
+          smaller than the corner radius, so corners clipped. */}
+      <PerspectiveCamera makeDefault position={[0, 0, 6.6]} fov={42} />
       {high && <Environment files="/3d/studio_small_08_512.hdr" />}
       <WireCube size={2.7} scrollRef={progressRef}>
         <LiquidBlob
