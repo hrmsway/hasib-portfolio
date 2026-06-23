@@ -104,11 +104,11 @@ export function LiquidBlob({
           vertexShader={blobVertexShader}
           uniforms={uniforms}
           metalness={1}
-          roughness={0.24}
-          envMapIntensity={0.9}
-          clearcoat={0.4}
-          clearcoatRoughness={0.3}
-          color={"#3c4044"}
+          roughness={0.26}
+          envMapIntensity={0.4}
+          clearcoat={0.5}
+          clearcoatRoughness={0.25}
+          color={"#0e1013"}
         />
       )}
     </mesh>
@@ -127,7 +127,7 @@ function MatcapBlobMaterial({
       vertexShader={blobVertexShader}
       uniforms={uniforms}
       matcap={matcapTexture}
-      color={"#85898d"}
+      color={"#34383c"}
     />
   );
 }
