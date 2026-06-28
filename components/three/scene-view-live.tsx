@@ -58,7 +58,10 @@ export default function SceneViewLive({
           useThreeStore.getState().addVisibleView(-1);
         }
       },
-      { rootMargin: "10%" }
+      // Generous margin so a view counts as visible across section
+      // boundaries — keeps the frameloop in smooth "always" mode while
+      // scrolling instead of flickering to "demand" between sections.
+      { rootMargin: "50%" }
     );
     observer.observe(el);
     return () => {

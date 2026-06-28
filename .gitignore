@@ -34,3 +34,6 @@ pnpm-debug.log*
 /.references
 /references
 .imggen/
+
+# local claude settings
+.claude/

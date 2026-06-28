@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, invalidate } from "@react-three/fiber";
 import { View, PerformanceMonitor } from "@react-three/drei";
 import { useThreeStore, pointerState } from "./store";
 import { TIER_CONFIG } from "./quality";
@@ -28,6 +28,16 @@ export default function CanvasRoot() {
     };
     window.addEventListener("pointermove", onPointerMove, { passive: true });
     return () => window.removeEventListener("pointermove", onPointerMove);
+  }, []);
+
+  // Each drei <View> scissors to its DOM box, read during the render loop. In
+  // "demand" frameloop (no view fully on screen) the canvas stops rendering, so
+  // the scissor freezes in viewport space and the 3D appears to lag/snap while
+  // scrolling. Invalidate on scroll so the scissors re-track every scroll tick.
+  useEffect(() => {
+    const onScroll = () => invalidate();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   if (tier === "static") return null;
