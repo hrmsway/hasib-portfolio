@@ -1,0 +1,9 @@
+[build]
+  command = "pnpm build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Next.js publish dir is managed by the runtime plugin; do not set `publish`.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
